@@ -1,7 +1,8 @@
 +++
-date = '2025-03-26T11:05:06-07:00'
-draft = false
 title = 'HTB - Querier'
+date = '2025-03-26'
+draft = false
+weight = 2
 +++
 
 ## Introduction

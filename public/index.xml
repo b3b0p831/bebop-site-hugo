@@ -14,16 +14,17 @@
     <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>HTB - Visual</title>
-      <link>http://localhost:1313/blog/visual/</link>
+      <title>Like the new look?</title>
+      <link>http://localhost:1313/blog/newsite/</link>
       <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/blog/visual/</guid>
-      <description>HTB Writeup: Visual - RCE via MSBuild and privilege escalation using EFS Potato</description>
+      <guid>http://localhost:1313/blog/newsite/</guid>
+      <description>&lt;p&gt;Hey peeps, over the past week I was procrastinating from exams, I decided to port &lt;a href=&#34;https://bebop831.com&#34;&gt;https://bebop831.com&lt;/a&gt; from my custom python solution I built using flask to something alot more simpler.&lt;/p&gt;
+&lt;h3 id=&#34;hugo&#34;&gt;Hugo&lt;/h3&gt;</description>
     </item>
     <item>
       <title>HTB - Querier</title>
       <link>http://localhost:1313/blog/querier/</link>
-      <pubDate>Wed, 26 Mar 2025 11:05:06 -0700</pubDate>
+      <pubDate>Wed, 26 Mar 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/blog/querier/</guid>
       <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
 &lt;p&gt;Querier is a mid-level Windows box focusing on information disclosure, capturing and cracking Net-NTLMv2 hashes, and weak service permissions. This is a great box for anyone looking to practice their enumeration and Windows priv esc skills. Okay, let&amp;rsquo;s go!&lt;/p&gt;
@@ -31,6 +32,13 @@
 Source: &lt;a href=&#34;https://app.hackthebox.com/machines/175&#34;&gt;Hackthebox&lt;/a&gt;&lt;/p&gt;
 &lt;h2 id=&#34;scanningenumeration&#34;&gt;Scanning/Enumeration&lt;/h2&gt;
 &lt;p&gt;Let&amp;rsquo;s kick things off by running a network scan using Nmap. I&amp;rsquo;ll start with a simple scan just to get a feel for what is on this box.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>HTB - Visual</title>
+      <link>http://localhost:1313/blog/visual/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/visual/</guid>
+      <description>HTB Writeup: Visual - RCE via MSBuild and privilege escalation using EFS Potato</description>
     </item>
   </channel>
 </rss>

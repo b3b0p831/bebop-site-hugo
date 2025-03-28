@@ -3,6 +3,7 @@ title = "HTB - Visual"
 description = "HTB Writeup: Visual - RCE via MSBuild and privilege escalation using EFS Potato"
 date = '2025-03-28'
 tags = ["windows", "htb", "rce", "privilege escalation", "msbuild", "efs potato"]
+weight = 3
 +++
 
 
