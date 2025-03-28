@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Blogs on bebop831</title>
+    <title>Blog on bebop831</title>
     <link>http://localhost:1313/blog/</link>
-    <description>Recent content in Blogs on bebop831</description>
+    <description>Recent content in Blog on bebop831</description>
     <image>
       <title>bebop831</title>
       <url>http://localhost:1313/%3Clink%20or%20path%20of%20image%20for%20opengraph,%20twitter-cards%3E</url>
@@ -11,21 +11,26 @@
     </image>
     <generator>Hugo -- 0.145.0</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Mar 2025 07:04:15 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 28 Mar 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Testwu</title>
-      <link>http://localhost:1313/blog/writeups/testwu/</link>
-      <pubDate>Wed, 26 Mar 2025 07:04:15 -0700</pubDate>
-      <guid>http://localhost:1313/blog/writeups/testwu/</guid>
-      <description></description>
+      <title>HTB - Visual</title>
+      <link>http://localhost:1313/blog/visual/</link>
+      <pubDate>Fri, 28 Mar 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/blog/visual/</guid>
+      <description>HTB Writeup: Visual - RCE via MSBuild and privilege escalation using EFS Potato</description>
     </item>
     <item>
-      <title>My First Post</title>
-      <link>http://localhost:1313/blog/testblog/</link>
-      <pubDate>Tue, 25 Mar 2025 17:29:31 -0700</pubDate>
-      <guid>http://localhost:1313/blog/testblog/</guid>
-      <description>This is a test post. where will this show up?</description>
+      <title>HTB - Querier</title>
+      <link>http://localhost:1313/blog/querier/</link>
+      <pubDate>Wed, 26 Mar 2025 11:05:06 -0700</pubDate>
+      <guid>http://localhost:1313/blog/querier/</guid>
+      <description>&lt;h2 id=&#34;introduction&#34;&gt;Introduction&lt;/h2&gt;
+&lt;p&gt;Querier is a mid-level Windows box focusing on information disclosure, capturing and cracking Net-NTLMv2 hashes, and weak service permissions. This is a great box for anyone looking to practice their enumeration and Windows priv esc skills. Okay, let&amp;rsquo;s go!&lt;/p&gt;
+&lt;p&gt;&lt;img alt=&#34;Querier&#34; loading=&#34;lazy&#34; src=&#34;http://localhost:1313/Querier/img/Querier.webp&#34;&gt;&lt;br&gt;
+Source: &lt;a href=&#34;https://app.hackthebox.com/machines/175&#34;&gt;Hackthebox&lt;/a&gt;&lt;/p&gt;
+&lt;h2 id=&#34;scanningenumeration&#34;&gt;Scanning/Enumeration&lt;/h2&gt;
+&lt;p&gt;Let&amp;rsquo;s kick things off by running a network scan using Nmap. I&amp;rsquo;ll start with a simple scan just to get a feel for what is on this box.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
