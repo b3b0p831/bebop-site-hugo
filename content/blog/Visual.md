@@ -3,7 +3,7 @@ title = "HTB - Visual"
 description = "HTB Writeup: Visual - RCE via MSBuild and privilege escalation using EFS Potato"
 date = '2025-03-28'
 tags = ["windows", "htb", "rce", "privilege escalation", "msbuild", "efs potato"]
-weight = 3
+weight = 2
 +++
 
 
@@ -125,14 +125,18 @@ A quick `whoami` shows the web server runs under the Local Service account.
 
 ## System 🪙
 
-According to [Microsoft](https://learn.microsoft.com/en-us/windows/win32/services/localservice-account), the LocalService account *should* have privileges like:
+According to [Microsoft](https://learn.microsoft.com/en-us/windows/win32/services/localservice-account), the LocalService account *should* have the following privileges:
+- SE_ASSIGNPRIMARYTOKEN_NAME (disabled)
+- SE_AUDIT_NAME (disabled)
+- SE_CHANGE_NOTIFY_NAME (enabled)
+- SE_CREATE_GLOBAL_NAME (enabled)
+- SE_IMPERSONATE_NAME (enabled)
+- SE_INCREASE_QUOTA_NAME (disabled)
+- SE_SHUTDOWN_NAME (disabled)
+- SE_UNDOCK_NAME (disabled)
+- Any privileges assigned to users and authenticated users
 
-- SE_ASSIGNPRIMARYTOKEN_NAME
-- SE_IMPERSONATE_NAME
-- SE_SHUTDOWN_NAME
-- etc...
-
-But a `whoami /priv` shows we’re missing many of them:
+But `whoami /priv` shows we’re missing many of the listed privileges:
 
 ![Missing Privs](Visual/img/svc_priv.png)
 
