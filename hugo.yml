@@ -86,7 +86,7 @@ params:
     - name: github
       url: "https://github.com/b3b0p831"
     - name: email
-      url: "mailto:bebop831.cm@gmail.com"
+      url: "mailto:contact@bebop831.com"
 
   analytics:
     google:
@@ -132,14 +132,18 @@ menu:
       name: blog
       url: /blog/
       weight: 3
+    - identifier: write-ups
+      name: write-ups
+      url: /write-ups/
+      weight: 4
     - identifier: projects
       name: projects
       url: /projects/
-      weight: 4
+      weight: 5
     - identifier: archives
       name: archives
       url: /archives/
-      weight: 5
+      weight: 6
 
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
