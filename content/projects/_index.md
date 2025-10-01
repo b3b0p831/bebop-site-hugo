@@ -1,5 +1,5 @@
 ---
-title: Blog
-layout: projects.html
-url: /blog/
+title: projects
+layout: projects
+url: /projects/
 ---
