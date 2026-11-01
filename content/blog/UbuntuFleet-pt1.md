@@ -1,10 +1,10 @@
 ---
 title: Managing a Macbook Air Fleet with Ubuntu 24.04 LTS and Ansible, pt.1
 date: 2025-09-30
-draft: true
+draft: false
 showTOC: true
 weight: 1
-disableShare: true
+disableShare: false
 ---
 
 ![Ubuntu](Fleet/img/base.webp)
