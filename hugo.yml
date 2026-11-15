@@ -82,7 +82,7 @@ params:
 
   socialIcons:
     - name: computer
-      url: "https://app.hackthebox.com/profile/1377385"
+      url: "https://www.credly.com/badges/88343e36-20c1-498f-92ef-3dfdcaaea70b/public_url"
     - name: github
       url: "https://github.com/b3b0p831"
     - name: email
